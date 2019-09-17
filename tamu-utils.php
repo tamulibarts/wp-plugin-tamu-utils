@@ -34,7 +34,7 @@ register_activation_hook( __FILE__, ['TAMU_Utils\Roles\DepartmentAdmin', 'instan
 
 // Custom autoloader
 spl_autoload_register(function ($class) {
-    if(!class_exists($class))
+    if(preg_match("/^TAMU_Utils/i", $class) && !class_exists($class))
        include_once __DIR__ . "/inc/" . str_replace('\\', '/', $class) . ".class.php";
 });
 
