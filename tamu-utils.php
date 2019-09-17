@@ -2,7 +2,7 @@
 /*
 Plugin Name: TAMU CLA WordPress Utilities
 Plugin URI: https://github.com/tamulibarts/wordpress-tamu-utilities
-Version: 1.0.0
+Version: 1.0.1
 Description: Plugin that contains various utlities for TAMU CLA WordPress Installations
 Author: Joseph Rafferty <jrafferty@tamu.edu>
 */
