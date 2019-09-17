@@ -1,0 +1,25 @@
+{
+	"name": "tamulibarts/tamu-utils",
+	"description": "WordPress plugin providing customization and utilities for TAMU",
+	"homepage": "https://github.com/tamulibarts/wp-plugin-tamu-utils",
+	"keywords": [
+        "wordpress",
+        "tamu"
+	],
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name":"Joseph Rafferty",
+			"email":"clla-webmaster@tamu.edu",
+			"homepage":"https://liberalarts.tamu.edu"
+		}
+	],
+	"support": {
+        "issues": "https://github.com/tamulibarts/wp-plugin-tamu-utils/issues",
+        "source": "https://github.com/tamulibarts/wp-plugin-tamu-utils"
+	},
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
